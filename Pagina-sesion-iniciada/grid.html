@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Helpay Usuario</title>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+            <div class="contenedorlogo">
+                <img class="logo" src="./logo_helpay.png" alt="...">
+                <h2 class="helpay">Helpay</h2>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mr-auto"></ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="submit">Cerrar Sesión</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid-container">
+            <div class="grid-item item1">
+                <section class="container menu-lateral">
+                    <article class="row d-flex justify-content-center">
+                        <a class="text-opciones" href="">Encargar Pagos</a>
+                    </article>
+                    <article class="row d-flex justify-content-center">
+                        <a class="text-opciones" href="">Configuración</a>
+                    </article>
+                    <article class="row d-flex justify-content-center" style="border-bottom:1px solid black">
+                        <a class="text-opciones" href="">Mi Perfil</a>
+                    </article>
+                </section>
+            </div>
+            <div class="grid-item item2">
+                <h1>Registro de gastos fijos</h1>
+        <span id=displayConcepto>Concepto: </span><span id=cConcepto></span>
+        <input id=inputConcepto class=barras type="text">
+            <br>
+        <span>Monto: $</span><span id=cMonto></span>
+        <input id=inputMonto type="text">
+            <br>
+        <span>Temporalidad: </span><span id=cTemporalidad></span>
+        <input id=inputTemporalidad type="text">
+            <br>
+        <span>Día: </span><span id=cDia></span>
+        <input id=inputDia type="text">
+            <br>
+        <span>Banco: </span><span id=cBanco></span>
+        <input id=inputBanco type="text">
+            <br>
+        <span>Cuenta: </span><span id=cCuenta></span>
+        <input id=inputCuenta type="text">
+            <br>
+        <button id=buttonSubmit>Submit</button>
+            </div>
+
+        </div>
+
+    </main>
+    <footer class="container">
+        <div class="row d-flex justify-content-center">
+            <section class="contenedor-footer contáctanos col-12 col-lg-4">
+                <div class="titulo-footer d-flex justify-content-center">
+                    <h5>
+                        Contáctanos
+                    </h5>
+                </div>
+                <div class="contenido-footer mx-3 d-flex justify-content-center">
+                    <p>
+                        Cel: (55) 5555-5555 <br>
+                        Correo: contacto@helpay.com.mx<br>
+                    </p>
+                </div>
+            </section>
+            <section class="contenedor-footer síguenos col-12 col-lg-4">
+                <div class="titulo-footer d-flex justify-content-center">
+                    <h5>
+                        Síguenos
+                    </h5>
+                </div>
+                <div class="contenido-footer d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#"><img
+                                    src="http://pngimg.com/uploads/facebook_logos/facebook_logos_PNG19751.png"
+                                    style="height:30px" alt=""></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#"><img
+                                    src="http://pngimg.com/uploads/instagram/instagram_PNG3.png" alt=""
+                                    style="height:30px"></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#"><img
+                                    src="https://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png" alt=""
+                                    style="height:30px"></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <section class="contenedor-footer información col-12 col-lg-4">
+                <div class="titulo-footer d-flex justify-content-center">
+                    <h5>
+                        + Información
+                    </h5>
+                </div>
+                <div class="contenido-footer d-flex justify-content-center">
+                    <p> &copy 2019 - NESTT <br>
+                        domiciliofiscal #20... <br>
+                        sajksldfhajsdflashfd
+                    </p>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>

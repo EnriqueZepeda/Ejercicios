@@ -1,0 +1,28 @@
+.logo{
+    width: 20%;
+}
+
+
+/* Inicia css de formulario */
+.btn{
+    border-radius: 0;
+    color: black;
+    background-color: rgb(125, 175, 177);
+    border: solid 1px white;
+    
+}
+/* para cuando quieras pasar el cursor encima y cambie de color */
+.btn:hover{
+    
+    border: solid 1px white;
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 255, 255);
+}
+.w-100 {
+    width: 100%!important;
+    height: 600px;
+}
+.container{
+    border: solid 1px rgb(247, 247, 247);
+}
+/* termina Css de formulario */
