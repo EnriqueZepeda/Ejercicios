@@ -1,0 +1,53 @@
+.encabezado{
+    /* border: solid 1px black; */
+    background-color: white;
+}
+
+.contenedorEncabezado{
+    /* border: solid 1px blue; */
+    display: inline-block;
+    height: 30px; 
+    width: 1100px;
+}
+
+.fotoPerfil{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+
+.bloqueIntermedio{
+    display: block;
+    /* border: solid 2px red; */
+    height: 315px;
+}
+
+.logoGoogle{
+    padding: 200px 525px 0px 525px;
+}
+
+.contenedorBuscador{
+    display: block;
+    /* border: solid 2px blue; */
+    height: 50px;
+}
+
+.buscador{
+    width: 375px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 460px;
+}
+.contenedorBotones{
+    display: block;
+    /* border: solid 2px green; */
+    height: 50px;
+}
+
+.boton1{
+    margin: 10px 25px 10px 500px;
+}
+
+.boton2{
+    display: inline;
+}
